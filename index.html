@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>To-Do list</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <div class="data-container">
+        <h1 class="data">Friday, 30th</h1>
+        <h5 class="month">April</h5>
+        <h1 class="number-of-tasks">0 Tasks</h1>
+    </div>
+<!--    Вставлять Задачи (Таски) будем в этот див-->
+    <div class="task-list-container"></div>
+    <div class="task-menu-container">
+        <span id="all" class="active">All</span>
+        <span id="pending">Pending</span>
+        <span id="completed">Completed</span>
+        <button class="clear-all-btn">Clear all</button>
+    </div>
+    <div class="input-div">
+        <input type="text" class="task-input" placeholder="Enter Your Task" autofocus>
+        <button class="add-task-btn">+</button>
+    </div>
+</div>
+</body>
+<script src="script.js"></script>
+</html>
